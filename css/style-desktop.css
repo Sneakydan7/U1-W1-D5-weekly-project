@@ -21,8 +21,8 @@ header {
   padding-block: 40px;
 }
 header div {
-  width: 35%;
-  margin-inline: auto;
+  width: 13%;
+  padding-left: 50px;
 }
 header div > img {
   width: 100%;
@@ -35,6 +35,11 @@ main section .banner {
   padding: 50px;
   background-position: center;
   background-size: cover;
+  padding: 5rem;
+}
+main section .bannertext {
+  width: 60%;
+  display: inline-block;
 }
 h1 {
   font-family: "Montserrat";
@@ -61,10 +66,20 @@ button {
 button:hover {
   cursor: pointer;
 }
-
+.imageround {
+  margin-top: 5rem;
+}
 .imageround img {
-  width: 50%;
   border-radius: 50%;
+}
+.imageround,
+.content {
+  display: inline-block;
+}
+.content {
+  text-align: left;
+  margin-left: 4rem;
+  margin-bottom: 3rem;
 }
 
 section h4 {
@@ -120,16 +135,24 @@ aside {
   padding: 25px;
   padding-bottom: 75px;
 }
+aside {
+  display: inline-block;
+  text-align: center;
+}
+
 aside .asideimg {
-  width: 100%;
   margin-top: 50px;
   background-color: white;
   border: 1px solid gray;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
 }
 aside .imagein img {
   width: 100%;
+  height: 300px;
 }
 aside h4 {
   font-family: "Montserrat", sans-serif;
